@@ -104,6 +104,13 @@ See `requirements.txt` for specific version requirements.
 
 This tutorial is for educational purposes.
 
+
+## Author
+
+Created by Pratik Mehta  
+GitHub: [pratik008](https://github.com/pratik008)
+
+
 ---
 
 *Note: This tutorial is designed to provide a step-by-step introduction to Google's Agent Development Kit. The examples progress from simple to complex patterns to help you understand how to build sophisticated AI agents.* 
