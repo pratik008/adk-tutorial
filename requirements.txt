@@ -1,3 +1,4 @@
 google-adk  # This will install the latest available version
 google-generativeai
 python-dotenv
+litellm

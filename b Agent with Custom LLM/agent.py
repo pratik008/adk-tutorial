@@ -101,7 +101,7 @@ use_azure = os.getenv("USE_AZURE_OPENAI", "false").lower() == "true"
 if use_azure:
     # Configure Azure OpenAI model with LiteLLM
     model = LiteLlm(
-        model=f"azure/{os.getenv('DEPLOYMENT_NAME')}",
+        model=f"azure/{os.getenv('DEPLOYMENT_NAME')}", # gpt-4o
         api_key=os.getenv("AZURE_OPENAI_API_KEY"),
         api_base=os.getenv("ENDPOINT_URL"),
         api_version=os.getenv("API_VERSION")
